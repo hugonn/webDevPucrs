@@ -1,9 +1,20 @@
 ---------------------------------------------------------------------------------------------------------------------------------
+- HTML5
+	- <!DOCTYPE HTML> explicitamente que é um DOC html.
+	- <lang> pode definir a linguagem do html
+	- <head>  bibliotecas/javascripts/title.
+	- www.caniuse.com (restriçoes e compatibilidades com HTML).
+	- <alt> em HTML5 : o que cada imagem significa dentro do html.
+	- flaticon.com and iconfinder.com
+	- <nav> : elementos/links de navegação.
+	- Organizar html por div's e sections.
+	- <header> : informações do site, elementos,etc
+	- <main> especifíca o conteúdo principal do documento
+	- <article> demarca artigos
+	- <section> demarcador de sessões no site
+	- <footer> informações do site 
+	- <address> informações de contato
 
--> <!DOCTYPE HTML> explicitamente que é um DOC html.
--> <head> -> bibliotecas.
--> www.caniuse.com (restriçoes e compatibilidades com HTML).
--> alt em HTML5 : o que cada imagem significa dentro do html.
--> flaticon.com and iconfinder.com
--> <nav> : elementos de navegação.
--> Organizar html por div's e sections.
+------------------------------------------------------------------------------------------------------------------------------------
+- CSS
+	-Formatar informação, imagens, videos.
