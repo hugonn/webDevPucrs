@@ -1,0 +1,8 @@
+
+-> <!DOCTYPE HTML> explicitamente que é um DOC html.
+-> <head> -> bibliotecas.
+-> www.caniuse.com (restriçoes e compatibilidades com HTML).
+-> alt em HTML5 : o que cada imagem significa dentro do html.
+-> flaticon.com and iconfinder.com
+-> <nav> : elementos de navegação.
+-> Organizar html por div's e sections.
