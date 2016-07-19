@@ -17,4 +17,8 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------
 - CSS
-	-Formatar informação, imagens, videos.
+	- Formatar informação, imagens, videos.
+	- CSS tem herança : strong,em,span{ color: red}
+	- cada browser tem seu motor de renderização
+	- Transform 2D para rotacionar imagens
+	- hover: passagem do mouse por cima do elemento 
