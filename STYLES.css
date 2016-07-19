@@ -1,0 +1,36 @@
+section{
+	background-color : red;
+	border :solid;
+	height: 200px;
+	
+}
+p{
+	margin-left : 40%;
+}
+
+
+
+header{
+min-height: 50px;
+width:100%;
+text-align :center;
+
+}
+
+div.first{
+
+border : solid;
+height: 100px;
+width : 45%;
+margin-top : 10px;
+float: right;
+}
+div.second{
+
+border : solid;
+height: 100px;
+width : 45%;
+margin-top : 10px;
+margin-left: 10px;
+
+}
