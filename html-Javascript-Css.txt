@@ -14,6 +14,12 @@
 	- <section> demarcador de sessões no site
 	- <footer> informações do site 
 	- <address> informações de contato
+	- <form> Formulários
+	- Formulários possuem métodos method
+		- POST inserção no banco/ salvar dados / 
+		- CRUD (POST/GET/PUT/DELETE)
+		- Action para aonde vai a requisição, normalmente no back-end/ Rota de dados.
+	
 
 ------------------------------------------------------------------------------------------------------------------------------------
 - CSS
@@ -26,3 +32,4 @@
 ---------------------------------------------------------------------------------------------------------------------------------------
 - JAVASCRIPT
 	- Linguagem de programação da Web, Front.
+	
