@@ -22,3 +22,7 @@
 	- cada browser tem seu motor de renderização
 	- Transform 2D para rotacionar imagens
 	- hover: passagem do mouse por cima do elemento 
+	
+---------------------------------------------------------------------------------------------------------------------------------------
+- JAVASCRIPT
+	- Linguagem de programação da Web, Front.
