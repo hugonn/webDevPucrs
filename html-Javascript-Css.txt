@@ -15,10 +15,11 @@
 	- <footer> informações do site 
 	- <address> informações de contato
 	- <form> Formulários
+	- <span> conteiner de elementos genericos 
 	- Formulários possuem métodos method
 		- POST inserção no banco/ salvar dados / 
 		- CRUD (POST/GET/PUT/DELETE)
-		- Action para aonde vai a requisição, normalmente no back-end/ Rota de dados.
+		- Action para aonde vai a requisição, normalmente no back-end/ Rota dos dados.
 	
 
 ------------------------------------------------------------------------------------------------------------------------------------
@@ -32,4 +33,6 @@
 ---------------------------------------------------------------------------------------------------------------------------------------
 - JAVASCRIPT
 	- Linguagem de programação da Web, Front.
-	
+	- window.addEventListener adiciona eventos no javascript 
+	- TRIM formata o texto, retira os espaços
+	- eventPreventDefault necessário no submit caso haja validação
