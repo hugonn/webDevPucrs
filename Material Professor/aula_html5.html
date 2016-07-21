@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JQuery o começo...</title>
+		<meta charset="UTF-8">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href="estilo.css" rel="stylesheet" type="text/css">
+		<script src="jquery-3.1.0.js" type="text/javascript"></script> 
+	</head>
+	<body>
+		<!-- isso é comentário
+			Será disponibilizado na pasta H 
+			Nessa aula iremos:
+			1) Começar a ver JQuery (vamos construir juntos).
+			2) Vamos fazer um exercício com Jquery;
+			3) Jquery e formulários;
+			4) Jquery UI;
+			5) Vamos tirar dúvidas sobre css;
+			6) Podemos praticar HTML5 e CSS		
+		
+			Na próxima iremos:
+			0) Formulários Dinâmicos
+			1) 1hora Fazer uma página com 3 sections sendo que a última será contato.
+			2) 1hora Veremos twitter bootstrap
+			3) 1hora Faremos uma página usando twitter bootstrap
+			4) Retomada final e exercício final;
+		-->
+		<header>
+			<h1>JQuery - O Começo - CURSO HTML5, CSS3, JQUERY e JQUERY UI</h1>
+		</header>
+		<main>
+			<nav>
+				<a href="#" id="loading">Como carregar o Jquery</a>
+				<a href="#" id="seletores">Seletores</a>
+				<a href="#" id="eventos">Eventos</a>
+				<a href="#" id="animacoes">Animações</a>
+				<a href="#" id="formularios">Formulários e validação</a>
+				<a href="#" id="jqueryui">Jquery UI</a>
+				<a href="#" id="css">CSS</a>
+			</nav>
+			
+			<section id="section-loading">
+				Como carregar o JQuery: 
+				<ol>
+					<li>Baixando o arquivo: <a href="https://jquery.com/download/">Site da JQuery</a></li>
+					<li>CDNJs:
+						<p>
+							'https://code.jquery.com/jquery-3.1.0.min.js'
+						</p>
+					</li>
+				</ol>
+			</section>
+			
+			
+			<section id="section-seletores">
+				<h2>Seletores no JQuery</h2>
+				<p>JQuery proporciona uma mágica forma de 
+				recuperar elementos HTML.</p>
+				
+				<code>
+					$('p') /* Recupera uma tag com nome p */ </br>
+					$('.nome-class') /* Recupera elementos pela classe */ </br>
+					$('#sou-um-id') /* Eu sou um ID e serei recuperado */
+				</code>
+				
+			</section>
+			
+			<section id="section-eventos">
+				<h2>Eventos</h2>
+				<p>Eventos no Jquery</p>
+				
+				<ul>
+					<li>
+						<h3>Hover</h3>
+						
+						<img src="b.jpg" id="img"> </img>
+						<!-- EXERCICIO
+						 adicionem uma imagem 
+						 façam o evento de hover do jquery seletor + .hover(function(){}) -->
+					</li>
+				</ul>
+				
+			</section>
+			
+		</main>
+		<footer>
+		</footer>
+		<script src="app.js" type="text/javascript"></script>
+	</body>
+</html>

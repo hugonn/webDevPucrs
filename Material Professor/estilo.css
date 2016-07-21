@@ -1,58 +1,75 @@
+html, body {
+	margin: 0;
+}
+
 body {
-	background-color: #FFF; /* imagem caso o browser não aceite a feature */ 
-	/* Firefox 3.6+ */ 
-		
+  background: url(aa.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
 }
 
-img.skew {
-	-webkit-transform: skew(30deg); 
-	/* para webkit */
-	 -moz-transform: skew(30deg);
-	 /* para gecko */ 
-	-o-transform: skew(30deg); 
-	/* para opera */ transform: skew(30deg); /* para browsers sem prefixo */
+main {
+	height: auto;
+	width: 80%;
+	margin-left:10%;
+	min-height: 600px;
+	background-color: white;
+	box-shadow: 1px 1px 1px #000;
+	border-radius: 10px;
+	padding: 30px;
 }
 
-div.skew {
-	height: 300px;
-	width: 300px;
-	background-color: #cb3398;
-	 -webkit-animation-name: rodaroda; 
-	-webkit-animation-duration: 2s; 
+header {
+	text-align: center;
+}
+
+header h1 {
+	color: white;
+	font-size: 30px;
+	animation-duration: 2s;
+    animation-name: blinkit;
 	-webkit-animation-timing-function: linear; 
-	-webkit-animation-iteration-count: infinite; 
+    -webkit-animation-iteration-count: infinite; 
 	-webkit-animation-direction: alternate;
-	box-shadow: 20px 20px 20px #ccc;
-	border-radius: 100%;
-	
-	background-image: url(images/gradiente.png); 
-/* Firefox 3.6+ */ 
-background-image: -moz-linear-gradient(green, red); 
-/* Safari 5.1+, 
-Chrome 10+ */ 
-background-image: -webkit-linear-gradient(green, red);
- /* Opera 11.10+ */ 
-background-image: -o-linear-gradient(green, red);
+}
+
+@-webkit-keyframes blinkit {
+    from {
+		margin-top: -2px;
+		text-shadow: 1px 1px 1px #000;
+	}
+    to { 
+		text-shadow: 1px 1px 10px #000;
+	}
 } 
 
-a {
-  color: #000;
-  font-size:20px;
-  -webkit-transition: 1s;
+nav {
+	padding: 20px;
 }
 
-a:hover {
-	color: #fc0;
-	 -webkit-transition: 0.5s;
+section {
+  font-size:24px;
 }
 
-@-webkit-keyframes rodaroda { 
-	from { 
-		-webkit-transform:rotate(0deg); 
-	}
- 	to { 
-		-webkit-transform:rotate(360deg);
-	   }
- }
- 
- 
+.lib {
+	display: none;
+}
+
+.events {
+	display: none;
+}
+
+.events div{
+	float:left;
+}
+
+.selectors {
+	display: none;
+}
+
+#section-seletores, #eventos{
+	display: none;
+}
