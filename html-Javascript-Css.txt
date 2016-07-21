@@ -20,6 +20,7 @@
 		- POST inserção no banco/ salvar dados / 
 		- CRUD (POST/GET/PUT/DELETE)
 		- Action para aonde vai a requisição, normalmente no back-end/ Rota dos dados.
+	- www.temnocarrinho.com.br
 	
 
 ------------------------------------------------------------------------------------------------------------------------------------
