@@ -7,8 +7,9 @@ window.addEventListener('load', function() {
 
 function validar(e){
 
+	
 	e.preventDefault();
-
+	
 	if(document.getElementById('senha').value == document.getElementById('confirmSenha').value)
 		alert('Senhas iguais');
 	else{
@@ -22,7 +23,8 @@ function validar(e){
 		return false;
 	}
 	
-	return true;
+	document.getElementById('cadastro').submit();
+	
 
 	
 
