@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Aula 3 - Formulários e validação com JavaScript</title>
+		<meta charset="UTF-8">
+		<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<!-- <button id="iamabutton">Me clica</button> -->
+		<ol>
+			<h2>Agenda para a aula <button id="next" class="meubotaofavorito">Próximo</button></h2>
+			<li class="active">Criar um formulário</li>
+			<li>Mostrar os types dos formulários</li>
+			<li>Validar com JavaScript</li>
+			<li>Fazer 1 exercício com JavaScript</li>
+			<li>Fazer 1 exercício formatando estilo c/ css</li>
+			<li>Começar JQuery</li>
+			<li>Exercícios com JQuery</li>
+			<li>Teremos tema com ajuda 24h</li>
+		</ol>
+		<div id="my-content" height="400px" width="400px"></div>
+		<main>
+			
+		</main>
+
+		<script>
+			function loadedPage(){
+			  
+			  var container = document.getElementById('my-content');
+			  container.innerHTML = "Paragraph changed!";
+			  var button = document.getElementById('iamabutton');
+			  
+			  button.addEventListener("click", sayHello);	
+
+
+			  function sayHello(){
+			  	container.style.backgroundColor = "#fc0";
+				container.style.fontSize = "20px";
+				
+				var i = 0;
+			  	
+			  	setInterval(function(){
+			  		container.style.margin = i+"px";
+			  		i += 2;
+			  	}, 1);
+			  	
+			  }
+
+			}
+
+			//window.addEventListener("load", loadedPage);
+		</script>
+
+		<script src="validateform.js"></script>
+	</body>
+</html>

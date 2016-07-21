@@ -1,0 +1,9 @@
+﻿Links que podem ser úteis:
+
+Evitar adicionar um evento por tag (uma forma de generalizar).
+https://www.kirupa.com/html5/handling_events_for_many_elements.htm
+
+Dever de casa para quem quiser: 
+
+Criar a sua versão do Tem no Carrinho: www.temnocarrinho.com.br
+Fiquem a vontade para me mandar email: piffer.lucas@gmail.com
