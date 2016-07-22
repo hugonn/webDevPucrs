@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JQuery o começo...</title>
+		<meta charset="UTF-8">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		
+		<script src="jquery-3.1.0.js"></script>
+	</head>
+	<body>
+		
+		<header>
+			<h1>JQuery - O Começo - CURSO HTML5, CSS3, JQUERY e JQUERY UI</h1>
+		</header>
+		<main>
+			
+			<section id="section-formularios">
+				<h2>Formulários</h2>
+				<p>Validando formulários</p>
+				
+				<span class="feedback"></span>
+				
+				<form action="#" method="POST" id="envia-form">
+					<label for="nome">Nome</label>
+					<input type="text" data-identfier="10" id="nome" onChange = "validar()">
+					<input type="text" minLength = 9 id="cep" name ="codigo postal">
+					<input type="submit" value="Enviar!">
+				</form> 
+			</section>
+			
+		</main>
+		<footer>
+		</footer>
+		<script type="text/javascript">
+			
+	
+			var valid = false;
+			function validar(){
+				
+				if((document).getElementById("nome").value){
+					valid = true;
+					alert('True');
+				}
+				else
+				{
+					alert('false');
+					valid = false;
+			
+				}
+			}
+			
+			
+		
+	
+		
+		</script>
+	</body>
+</html>

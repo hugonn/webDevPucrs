@@ -1,0 +1,75 @@
+html, body {
+	margin: 0;
+}
+
+body {
+  background: url(aa.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+	height: auto;
+	width: 80%;
+	margin-left:10%;
+	min-height: 600px;
+	background-color: white;
+	box-shadow: 1px 1px 1px #000;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+header {
+	text-align: center;
+}
+
+header h1 {
+	color: white;
+	font-size: 30px;
+	animation-duration: 2s;
+    animation-name: blinkit;
+	-webkit-animation-timing-function: linear; 
+    -webkit-animation-iteration-count: infinite; 
+	-webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes blinkit {
+    from {
+		margin-top: -2px;
+		text-shadow: 1px 1px 1px #000;
+	}
+    to { 
+		text-shadow: 1px 1px 10px #000;
+	}
+} 
+
+nav {
+	padding: 20px;
+}
+
+section {
+  font-size:24px;
+}
+
+.lib {
+	display: none;
+}
+
+.events {
+	display: none;
+}
+
+.events div{
+	float:left;
+}
+
+.selectors {
+	display: none;
+}
+
+#section-seletores, #eventos{
+	display: none;
+}

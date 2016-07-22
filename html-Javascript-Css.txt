@@ -37,3 +37,27 @@
 	- window.addEventListener adiciona eventos no javascript 
 	- TRIM formata o texto, retira os espaços
 	- eventPreventDefault necessário no submit caso haja validação
+	- Função de click no botao tem ação default de redirecionar para algum lugar
+		- Implementar event.preventDefault().
+		
+-----------------------------------------------------------------------------------------------------------------------------------------
+-Twitter Bootstrap
+	-div 100& -> adiciona a classe "col-md-12" (coluna-medium-12)
+		- <div(ou outra tag) class ="col-md-12"> </div> 
+	
+	 if(document.getElementById("Employ").val()){
+		validEmploy = True;
+		else
+			validEmploy = false;
+		
+		if(validEmploy) 
+			faz algo
+		else
+			faz outra coisa
+		
+		if(document.getElementById("Employ").val())
+			faz algo
+		else
+			faz outra coisa.
+		
+		
